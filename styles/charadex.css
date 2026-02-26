@@ -15,43 +15,43 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #8FB7D4;
-  --cd-primary-text-color:               #fff;
+  --cd-primary-color:                    #474243;
+  --cd-primary-text-color:               #fceec3;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #939799;
-  --cd-secondary-text-color:             #fff;
+  --cd-secondary-color:                  #fceec3;
+  --cd-secondary-text-color:             #474243;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #f8f8f8;
-  --cd-content-background-color:         #ffffff;
-  --cd-faded-background-color:           #f8f8f8;
+  --cd-body-background-color:            #474243;
+  --cd-content-background-color:         #322f31;
+  --cd-faded-background-color:           #474243;
 
   /* Background Extras */
-  --cd-body-background-image:             url();
+  --cd-body-background-image:             url(https://i.pinimg.com/564x/7a/5c/26/7a5c26451f926a96bf70d03fccdac576.jpg);
 
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color:                  #303030;
-  --cd-faded-text-color:                 #575757;
+  --cd-body-text-color:                  #fceec3;
+  --cd-faded-text-color:                 #fceec3;
 
   /* ============================================================= */
   /* Borders
   ================================================================ */
   --cd-border-color:                     rgba(0, 0, 0, 0.125);
   --cd-border-width:                     1px;
-  --cd-border-style:                     solid;
+  --cd-border-style:                     none;
   --cd-border-radius:                    1rem;
 
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color:          #222222;
+  --cd-navbar-background-color:          #5a5354;
   --cd-navbar-brand-color:               var(--cd-primary-color);
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
   --cd-navbar-text-color:                var(--cd-content-background-color);
@@ -62,8 +62,8 @@ body {
   /* ============================================================= */
   /* Main Fonts
   ================================================================ */
-  --cd-body-font-family:                 'Montserrat', sans-serif;
-  --cd-header-font-family:               'Comfortaa', sans-serif;
+  --cd-header-font-family:             'Press Start 2P', system-ui;
+  --cd-body-font-family:               'Press Start 2P', system-ui;
 
 
   /* ============================================================= */
@@ -105,7 +105,7 @@ body {
   /* Link
   ================================================================ */
 
-  --cd-link-text-color:                  #4c8ebd;
+  --cd-link-text-color:                  #93bfbf;
   --cd-link-text-color-hover:            var(--cd-secondary-color);
 
 
@@ -567,7 +567,7 @@ p:last-child {
 
 /* Small container for more compact view */
 .container {
-  max-width: 950px !important;
+  max-width: 1050px !important;
 }
 
 /* Prevents awkward load in stutter */
@@ -641,4 +641,16 @@ p:last-child {
         letter-spacing: 2px;
         font-size: 5rem;
     }
+p {
+font-size: 10px; /* Устанавливает размер шрифта в пикселях */
+}
+
+h1 {
+font-size: 2em; /* Размер в 2 раза больше родительского */
+}
+
+a {
+font-size: 10px; /* Устанавливает размер шрифта в пикселях */
+}
+
 }
